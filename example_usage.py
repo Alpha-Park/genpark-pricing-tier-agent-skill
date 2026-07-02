@@ -1,10 +1,6 @@
-﻿import sys
-from client import Client
+from client import PricingTierAdvisorClient
 def main():
-    if hasattr(sys.stdout, 'reconfigure'):
-        sys.stdout.reconfigure(encoding='utf-8')
-    c = Client()
-    res = c.process("Test Input")
-    print(res)
+    c = PricingTierAdvisorClient()
+    print(c.recommend_tier(15000, 3))
 if __name__ == '__main__':
     main()

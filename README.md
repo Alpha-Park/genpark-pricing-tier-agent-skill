@@ -1,3 +1,3 @@
-﻿# genpark-pricing-tier-agent-skill
+# genpark-pricing-tier-agent-skill
 
-Ready to use SDK library for genpark-pricing-tier-agent-skill.
+Production-ready agent skill for Pricing tier advisor.
